@@ -61,5 +61,7 @@ list.forEach(val => console.log(val))
 console.log('end')
 ```
 
-I'm not an expert, just a devlopper that tryed to understand Babel. I'm sure i missed a lot of thing. I just know that all this works, but maybe we could do a lot better.
+I'm not an expert, just a devloper that tryed to understand Babel. I'm sure i missed a lot of thing. I just know that all this works, but maybe we could do a lot better.
 Tell me how to improve this :-)
+
+Here are some sources that helped me to understand some concepts: https://hackernoon.com/polyfills-everything-you-ever-wanted-to-know-or-maybe-a-bit-less-7c8de164e423#---236-244
