@@ -1,0 +1,33 @@
+{
+  "name": "babel-transpile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@symfony/webpack-encore": "^0.19.0",
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "core-js": "^2.5.3"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": [
+              "ie >= 9"
+            ]
+          },
+          "debug": true
+        }
+      ]
+    ]
+  }
+}
