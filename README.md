@@ -65,3 +65,11 @@ I'm not an expert, just a devloper that tryed to understand Babel. I'm sure i mi
 Tell me how to improve this :-)
 
 Here are some sources that helped me to understand some concepts: https://hackernoon.com/polyfills-everything-you-ever-wanted-to-know-or-maybe-a-bit-less-7c8de164e423#---236-244
+
+## Command
+
+run `node_modules\.bin\encore dev` to transpile and build files into dist folder.
+
+Here, Webpack will run babel that will look for a configuration (there is no .babelrc file here so it will fallback into package.json inside the babel section).
+Babel will transpile the code like you would do with this command `node_modules\.bin\babel index.js -o dist/transpiled.js --preset es2015` (to do this you have to install babel-cli first with `npm install babel-cli --save-dev`)
+Then Webpack will continue its process an bundle files. 
