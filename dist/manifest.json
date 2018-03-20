@@ -1,3 +1,5 @@
 {
-  "transpiled.js": "/transpiled.js"
+  "dist/0.js": "/dist/0.js",
+  "dist/1.js": "/dist/1.js",
+  "dist/transpiled.js": "/dist/transpiled.js"
 }
